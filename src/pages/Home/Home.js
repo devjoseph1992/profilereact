@@ -1,10 +1,12 @@
 import "../../App.css";
 import Hero from "../../components/Hero/Hero";
+import Cards from "../../components/Cards/Cards";
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <Cards />
     </>
   );
 };
